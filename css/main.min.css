@@ -277,6 +277,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   width: 100%;
@@ -299,14 +303,6 @@ html.lock {
 .wrapper {
   display: flex;
   flex-direction: column;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 
 .container {
@@ -1550,6 +1546,11 @@ select {
   line-height: 150%;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
 /* @media (max-width: 1440px) */
 /* @media (max-width: 1240px) */
 @media (max-width: 1240px) {
