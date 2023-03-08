@@ -1405,6 +1405,7 @@ select {
   border-radius: 8px;
   padding: 15px;
   color: #fff;
+  cursor: pointer;
 }
 
 .form-registration textarea[type=textarea] {
@@ -1436,6 +1437,7 @@ select {
   min-height: 32px;
   border: 2px solid #A8B1BE;
   border-radius: 8px;
+  cursor: pointer;
 }
 .count-math__btn_minus {
   margin: 0 0 0 15px;
@@ -1482,6 +1484,7 @@ select {
   position: relative;
   border-radius: 8px;
   overflow: hidden;
+  cursor: pointer;
 }
 .questions-block__header:after {
   content: "";
