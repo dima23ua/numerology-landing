@@ -1834,6 +1834,11 @@ select {
   background-color: #fff;
 }
 
+.swiper-vertical {
+  -ms-touch-action: auto;
+      touch-action: auto;
+}
+
 .section-registration {
   padding: 100px 0;
 }
