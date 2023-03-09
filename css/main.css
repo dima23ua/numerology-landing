@@ -2477,6 +2477,22 @@ select {
     max-width: 100%;
   }
 
+  .questions-block__header {
+    padding: 25px 10px;
+  }
+
+  .questions-block__title {
+    padding-left: 40px;
+  }
+
+  .questions-block__body {
+    padding: 0 45px;
+  }
+
+  .questions-block__body.visible {
+    padding: 35px 45px;
+  }
+
   .footer-logo {
     display: block;
     margin-bottom: 20px;
