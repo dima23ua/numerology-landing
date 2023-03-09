@@ -933,6 +933,13 @@ select {
   margin-right: 15px;
 }
 
+.header-bottom__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #121b28;
+}
+
 .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1234,6 +1241,12 @@ select {
 .author-slider {
   overflow: hidden;
   position: relative;
+}
+
+.author-slider__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .author-slider__slide {
@@ -2275,6 +2288,14 @@ select {
 
   .header-bottom:after {
     display: none;
+  }
+
+  .header-bottom__item {
+    margin-bottom: 10px;
+  }
+
+  .header-bottom__text {
+    font-size: 14px;
   }
 
   .author {
