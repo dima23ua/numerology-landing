@@ -1251,6 +1251,7 @@ select {
 
 .author-slider__slide {
   width: auto;
+  height: auto;
   overflow: hidden;
   padding: 150px 0;
 }
@@ -1260,6 +1261,7 @@ select {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+  height: 100%;
 }
 
 .author-slider__slide:nth-child(even) .author-slider__left {
@@ -2330,6 +2332,10 @@ select {
     max-width: 100%;
   }
 
+  .author-slider__title {
+    font-size: 28px;
+  }
+
   .author-image {
     position: relative;
   }
@@ -2469,6 +2475,10 @@ select {
     padding: 60px 0;
   }
 
+  .section-title__title {
+    font-size: 28px;
+  }
+
   .registration__left {
     display: none;
   }
@@ -2477,20 +2487,38 @@ select {
     max-width: 100%;
   }
 
-  .questions-block__header {
-    padding: 25px 10px;
+  .reg-form__title {
+    font-size: 28px;
   }
 
-  .questions-block__title {
-    padding-left: 40px;
+  .questions-block__header {
+    padding: 15px;
   }
 
   .questions-block__body {
-    padding: 0 45px;
+    padding: 0 15px;
   }
 
   .questions-block__body.visible {
-    padding: 35px 45px;
+    padding: 15px;
+  }
+
+  .questions-block__title {
+    padding-left: 0;
+  }
+
+  .questions-block__title:before {
+    left: auto;
+    right: 0;
+  }
+
+  .questions-block__title:after {
+    left: auto;
+    right: 6px;
+  }
+
+  .bottom-section {
+    padding: 0;
   }
 
   .footer-logo {
